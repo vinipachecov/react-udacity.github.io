@@ -1,16 +1,16 @@
 {
-  "name": "contacts",
+  "name": "udacimeals",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "escape-string-regexp": "^1.0.5",
-    "form-serialize": "^0.7.2",
-    "prop-types": "^15.6.2",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
-    "react-router-dom": "^4.3.1",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-icons": "2.2.5",
+    "react-loading": "^2.0.3",
+    "react-modal": "^3.5.1",
+    "react-redux": "^5.0.7",
     "react-scripts": "1.1.4",
-    "sort-by": "^1.2.0"
+    "redux": "^4.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
