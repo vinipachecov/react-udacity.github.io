@@ -1,14 +1,24 @@
 {
   "expo": {
     "name": "UdaciFitness",
-    "description": "This project is really great.",
+    "description": "My code for Udacifitness project.",
     "slug": "UdaciFitness",
     "privacy": "public",
     "sdkVersion": "30.0.0",
     "platforms": ["ios", "android"],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "https://tylermcginnis.com/udacifitness-512.png",
+    "notification": {
+      "icon": "https://tylermcginnis.com/udacifitness-45.png"
+    },
+    "ios": {
+      "bundleIdentifier": "org.udacifitnes.exp",
+      "supportsTablet": true
+    },
+    "android" : {
+      "package": "org.udacifitness.exp"
+    },
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -19,9 +29,6 @@
     },
     "assetBundlePatterns": [
       "**/*"
-    ],
-    "ios": {
-      "supportsTablet": true
-    }
+    ],    
   }
 }
